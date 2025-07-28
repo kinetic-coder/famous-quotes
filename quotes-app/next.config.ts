@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
   images: {
     formats: ['image/webp', 'image/avif'],
   },
+  // Disable strict mode for better Vercel compatibility
+  reactStrictMode: false,
+  // Ensure static optimization works properly
+  output: 'standalone',
   // Add PWA-like features for mobile
   headers: async () => [
     {

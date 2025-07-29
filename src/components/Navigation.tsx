@@ -18,6 +18,7 @@ export default function Navigation() {
             <Link href="/" className="text-gray-700 hover:text-blue-600 transition-colors">Home</Link>
             <a href="#services" className="text-gray-700 hover:text-blue-600 transition-colors">Services</a>
             <Link href="/about" className="text-gray-700 hover:text-blue-600 transition-colors">About</Link>
+            <Link href="/quotes" className="text-gray-700 hover:text-blue-600 transition-colors">Quotes</Link>
             <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
           </div>
           <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">

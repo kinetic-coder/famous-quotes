@@ -262,7 +262,7 @@ export default function QuotesPage() {
                     // Display Mode
                     <div>
                       <blockquote className="text-lg text-gray-800 mb-4 italic font-medium leading-relaxed">
-                        "{quote.text}"
+                        &ldquo;{quote.text}&rdquo;
                       </blockquote>
                       <div className="flex justify-between items-center">
                         <cite className="text-base text-blue-600 font-semibold not-italic">
